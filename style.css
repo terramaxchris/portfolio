@@ -1,0 +1,173 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Uncial+Antiqua&family=UnifrakturCook:wght@700&display=swap');
+
+
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    margin: 0;
+    background-color: rgb(17, 33, 64);
+    background-image: url(images/leaves-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Website links except the nav */
+a:link {
+    color: rgb(254, 236, 100);
+}
+a:visited {
+    color: rgb(241, 189, 3);
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: rgb(241, 110, 3);
+}
+
+header {
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: rgb(17, 77, 22);
+    background-image: url(images/leaves-background-green.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: rgb(241, 189, 3) 3px solid ;
+    border-bottom: rgb(241, 189, 3) 3px solid;
+    padding: 5px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 8px 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    padding: 5px;
+}
+nav a {
+    font-family: 'Uncial Antiqua';
+    font-size: 1.5em;
+    text-decoration: none;
+}
+nav a:link {
+    color:rgb(254, 236, 100);
+}
+nav a:visited {
+    color: rgb(241, 189, 3);
+}
+nav a:hover {
+    color: white;
+}
+nav a:active {
+    color: rgb(239, 75, 15);
+}
+
+/* Hero */
+header {
+    background-image: url(images/leaves_banner-short.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1 {
+    font-family: 'Uncial Antiqua';
+    text-align: center;
+    font-size: 60px;
+    color:rgb(254, 236, 100);
+    text-shadow: 3px 3px 3px black;
+    margin: 0;
+    padding: 10px 10px 10px;
+    /* background-color: rgba(14, 63, 37, 0.5); */
+}
+/* Logo */
+.logo {
+    max-width: auto;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+
+/* Main */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    color: rgb(254, 236, 100);
+}
+h2 {
+    font-family: 'Uncial Antiqua';
+    font-size: 2em;
+    color: rgb(241, 189, 3);
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    color: rgb(241, 189, 3);
+    border-top: rgb(241, 189, 3) 2px solid;
+    text-align: center;
+    background-image: url(images/leaves-background-green.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer p {
+    margin: 10px;
+}
+
+/* CSS without a media query--applies to all sizes unless overridden */
+h1 {
+    font-size: 4em;
+}
+
+.embededImages {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: rgb(241, 189, 3) 2px solid;
+    float: left;
+}
+
+.project-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-gallery div {
+    border: rgb(241, 189, 3) 2px solid;
+    background: rgb(17, 77, 22);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 5px;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+/* CSS adjustemnts for tablets */
+@media only screen and (max-width: 1024px)
+{
+    h1 {
+        font-size: 2em;
+    }
+}
+
+/* CSS adjustemnts for smartphones */
+@media only screen and (max-width: 768px)
+{
+    h1 {
+        font-size: 1.5em;
+    }
+}

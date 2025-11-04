@@ -156,6 +156,10 @@ h1 {
     flex-wrap: wrap;
  }
 
+ .socialMediaLinks {
+    list-style-type: none;
+ }
+
 /* CSS adjustemnts for tablets */
 @media only screen and (max-width: 1024px)
 {

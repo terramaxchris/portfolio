@@ -110,7 +110,6 @@ header h1 {
 
 /* Main */
 main {
-    max-width: 1000px;
     margin: 20px auto;
     padding: 0;
     margin: 0;
@@ -126,6 +125,11 @@ main h2 {
 main p {
     padding: 0 10px;
 }
+
+.container-fluid {
+    max-width: 1000px;
+}
+
 .gallery {
     padding: 10px;
 }

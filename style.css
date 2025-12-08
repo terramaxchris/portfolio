@@ -3,7 +3,7 @@
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-size: 1.1em; */
+    color: rgb(254, 236, 100);
     margin: 0;
     padding: 0;
     background-color: rgb(17, 33, 64);
@@ -11,21 +11,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* .container-fluid {
-    padding: 0;
-    margin: 0;
-}
-.row {
-    padding: 0;
-    margin: 0;
-} */
 
 /* Website links except the nav */
 a:link {
-    color: rgb(254, 236, 100);
+    color: rgb(241, 189, 3);
 }
 a:visited {
-    color: rgb(241, 189, 3);
+    color: rgb(254, 236, 100);
 }
 a:hover {
     color: white;
@@ -33,10 +25,6 @@ a:hover {
 a:active {
     color: rgb(241, 110, 3);
 }
-
-/* header {
-    text-align: center;
-} */
 
 /* Navigation */
 nav {
@@ -78,10 +66,8 @@ nav a:active {
 
 header {
     background-image: url(images/leaves_banner-short.jpg);
-    /* height: 200px; */
     background-size: cover;
     background-repeat: no-repeat;
-    /* max-width: 1000px; */
     margin: 20px auto;
     padding: 0;
     margin: 0;
@@ -118,10 +104,17 @@ main {
 main h2 {
     font-family: 'Uncial Antiqua';
     font-size: 2em;
-    color: rgb(241, 189, 3);
     text-align: center;
     padding: 10px;
+    margin: 5px;
 }
+h3 {
+    font-family: 'Uncial Antiqua';
+    font-size:1.5em;
+    text-align: center;
+    margin: 15px 0 0;
+}
+
 main p {
     padding: 0 10px;
 }
@@ -138,38 +131,26 @@ main p {
     margin: 5px;
     border: rgb(241, 189, 3) 3px solid;
 }
-/* button {
-    font-family: 'Uncial Antiqua';
-} */
-/* 
-.gallery img {
-    width: 100px;
-    margin: 3px;
-} */
 
 /* Footer */
 footer {
-    color: rgb(241, 189, 3);
     border-top: rgb(241, 189, 3) 2px solid;
     text-align: center;
     background-image: url(images/leaves-background-green.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-footer div {
-    margin: 0 10px;
-}
 footer h4 {
     font-size: 1em;
 }
-footer p {
+footer p, .fa {
     font-size: .8em;
     margin: .4em;
 }
-footer .fa {
+/* footer .fa {
     font-size: 1em;
     align-items: center;
-}
+} */
 footer small {
     font-size: .6em;
     padding: 10px 0;

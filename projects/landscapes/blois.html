@@ -24,7 +24,6 @@
                     <li><a href="../../projects/illustration/illustration-index.html">ILLUSTRATION</a></li>
                     <li><a href="../../projects/other/other-index.html">OTHER ART</a></li>
                     <li><a href="../../about.html">ABOUT</a></li>
-                    <li><a href="../../game.html">GAME</a></li>
                 </ul>  
             </nav>
         </header>
@@ -32,51 +31,111 @@
         <main>
             <div class="container-fluid">
                 
-                <div class="gallery">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-12">
-                            <h2>Blois France</h2>
-                            <p>
-                                I spent a big chunk of the pandemic in a French town called Blois, from October 2020 - May 2021.  
-                                I was accepted into the <em>TAPIF</em> program.  This program takes native English-speaking applicants to be 
-                                teaching assistants in English classrooms in France, so that French students can get experience hearing 
-                                real accents, and the assistants can learn about French culture.
-                            </p>
-                            <p>
-                                I applied in 2019, but when the pandemic started I feared the whole thing would be cancelled.  It was 
-                                definitely on some kind of hold during the spring.  But during the summer, well after I'd expected to 
-                                hear one way or another whether I was accepted, I finally got a letter telling me I had been!
-                            </p>
-                            <p>
-                                It was a strange time to be overseas.  I couldn't do much of the tourist experience; everything shut down in 
-                                France shortly after I arrived and stayed closed until after I left.  Not only were all the museums closed, but you 
-                                weren't allowed to travel more than 3 kilometeres from your place of residence unless you had a waiver for work.  
-                                Every timei left my house, I had to fill out a form (there was a digital one available) saying where I lived, what time 
-                                I'd left at, and why.  Theoretically you could get stopped by some authprity and fined if you'd broken the rules, though 
-                                I never heard of it happening to anyone.
-                            </p>
-                            <p>
-                                So I went for a lot of walks.  And my town (a city of about 50,000 named Blois which was about 2 hours south of Paris 
-                                by train) was not only a very walkable city, but a beautiful place to walk.  I was thoroughly spoiled by it, 
-                                and moving back to the US when my term was over was a nasty sort of culture shock.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="../../images/landscapes/blois/Blois01.png"
-                            alt="Digital art of cool-looking buildings from across a parking lot,
-                            with a fancy curly street-lamp, under a gray sky." height="100%">
-                    </div>
-                    <div class="col-sm-6">
+                <div class="row justify-content-start">
+                    <div class="col-sm-12">
+                        <h2>Blois France</h2>
                         <p>
-                            Based on a photo I took while waiting to meet the local teacher I'd be 
-                            working with.  I was constantly struck by how cool the architecutre was; 
-                            after training myself to look for interesting and beautiful things in 
-                            parking lots and bus stops, Blois was a constant overload.
+                            I spent a big chunk of the pandemic in a French town called Blois, from October 2020 - May 2021.  
+                            I was accepted into the <em>TAPIF</em> program.  This program takes native English-speaking applicants to be 
+                            teaching assistants in English classrooms in France, so that French students can get experience hearing 
+                            real accents, and the assistants can learn about French culture.
+                        </p>
+                        <p>
+                            I applied in 2019, but when the pandemic started I feared the whole thing would be cancelled.  It was 
+                            definitely on some kind of hold during the spring.  But during the summer, well after I'd expected to 
+                            hear one way or another whether I was accepted, I finally got a letter telling me I had been!
+                        </p>
+                        <p>
+                            It was a strange time to be overseas.  I couldn't do much of the tourist experience; everything shut down in 
+                            France shortly after I arrived and stayed closed until after I left.  Not only were all the museums closed, but you 
+                            weren't allowed to travel more than 3 kilometeres from your place of residence unless you had a waiver for work.  
+                            Every timei left my house, I had to fill out a form (there was a digital one available) saying where I lived, what time 
+                            I'd left at, and why.  Theoretically you could get stopped by some authprity and fined if you'd broken the rules, though 
+                            I never heard of it happening to anyone.
+                        </p>
+                        <p>
+                            So I went for a lot of walks.  And my town (a city of about 50,000 named Blois which was about 2 hours south of Paris 
+                            by train) was not only a very walkable city, but a beautiful place to walk.  I was thoroughly spoiled by it, 
+                            and moving back to the US when my term was over was a nasty sort of culture shock.
                         </p>
                     </div>
                 </div>
 
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+                        <div class="gallery">
+
+                            <div class="gallery-thumbnails">
+                                
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="blois01" src="../../images/landscapes/blois/Blois01.png" height="150px"
+                                alt="Digital art of cool-looking buildings from across a parking lot,
+                                    with a fancy curly street-lamp, under a gray sky."
+                                data-caption="Based on a photo I took while waiting to meet the local teacher I'd be 
+                                    working with.  I was constantly struck by how cool the architecutre was; 
+                                    after training myself to look for interesting and beautiful things in 
+                                    parking lots and bus stops, Blois was a constant overload." />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="blois02" src="../../images/landscapes/blois/blois02.png" height="150px"
+                                alt="Digital art of a rainbow against a dark cloudy gray sky over some buildings 
+                                on a steep hill."
+                                data-caption="Based on a photo I took while walking to my hotel during the first week in Blois, 
+                                before I found my apartment." />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="blois03" src="../../images/landscapes/blois/blois04.png" height="150px"
+                                alt="Digital art of cool-looking buildings  at a tight angle alongside the sidewalk, 
+                                with a focus on a small everygreen shrub on one yard.  Its green is among the brightest 
+                                colors in the image, whereas the sky is fairly pale blue and the buildings are all an elegant
+                                off-white."
+                                data-caption="Based on a photo I took while walking to work.  The color contrast 
+                                between the green evergreen needles and the reddish untertone of the branches was 
+                                interesting to me.  I used Ibis Paint fo rthis one, and it has better brushes for the 
+                                tree." />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="blois04" src="../../images/landscapes/blois/blois09.png" height="150px"
+                                alt="Digital art of a bridge with Roman arhces crossing a river, viewed from above from 
+                                the window of a multi-story building.  It's late afternoon and the sky is blue but the colors 
+                                are turning gold, and it's most visible in the undersides of the bridge arches where it's reflecting up 
+                                off the water."
+                                data-caption="Based on a photo I took while waiting in the upper story of a building near the Loire river. 
+                                I crossed that bridge regulary to and from work, but I rarely got to see it from this angle." />
+
+                            </div>
+
+                            <div class="preview" id="preview-img-div">
+                                <div class="preview-img">
+                                    <img id="preview" src="../../images/landscapes/blois/Blois01.png"
+                                    style="display:block;margin:0 auto;" height="100%"
+                                    alt="Digital art of cool-looking buildings from across a parking lot,
+                                    with a fancy curly street-lamp, under a gray sky."/>
+                                </div>
+                                <label id="previewCaption">
+                                    Based on a photo I took while waiting to meet the local teacher I'd be 
+                                    working with.  I was constantly struck by how cool the architecutre was; 
+                                    after training myself to look for interesting and beautiful things in 
+                                    parking lots and bus stops, Blois was a constant overload.
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>    
+                
             </div>
         </main>
 
@@ -85,14 +144,13 @@
 
                 <div class="row justify-content-center">
                     
-                    <div class="col-sm-5">
+                    <div class="col-5">
                         <p class="right-align">
-                            This website is a portfolio for my personal art.  All images were drawn by me, Kokiri85, witohut use of AI.
-                            JavaScript was used to make the photo gallery, and Bootstrap columns for responsive layout.
+                            All images were drawn by me without use of AI. Bootstrap columns were used for responsive layout.
                         </p>
                     </div>
 
-                    <div class="col-sm-5">
+                    <div class="col-5">
                         <p class="row justify-content-start">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <a href="https://www.instagram.com/kokiri85/?hl=en">Instagram</a>

@@ -20,8 +20,10 @@
             <nav>
                 <ul>
                     <li><a href="../../index.html">HOME</a></li>
+                    <li><a href="../../projects/landscapes/landscapes-index.html">LANDSCAPES</a></li>
+                    <li><a href="../../projects/illustration/illustration-index.html">ILLUSTRATION</a></li>
+                    <li><a href="../../projects/other/other-index.html">OTHER ART</a></li>
                     <li><a href="../../about.html">ABOUT</a></li>
-                    <li><a href="../../game.html">GAME</a></li>
                 </ul>  
             </nav>
         </header>
@@ -29,26 +31,64 @@
         <main>
             <div class="container-fluid">
                 
-                <div class="gallery">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-12">
-                            <h2>Studies</h2>
-                            <p>
-                                These studies are....  
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="../../images/other/studies/2024_lent_08.png"
-                            alt="Digital art of ..." height="100%">
-                    </div>
-                    <div class="col-sm-6">
+                <div class="row justify-content-start">
+                    <div class="col-sm-12">
+                        <h2>Studies (Miscellaneous)</h2>
                         <p>
-                            This is...
+                            Basically other, left over art.
                         </p>
                     </div>
                 </div>
 
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+                        <div class="gallery">
+
+                            <div class="gallery-thumbnails">
+                                
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="blois01" src="../../images/landscapes/blois/Blois01.png" height="150px"
+                                alt="Digital art of cool-looking buildings from across a parking lot,
+                                    with a fancy curly street-lamp, under a gray sky."
+                                data-caption="Based on a photo I took while waiting to meet the local teacher I'd be 
+                                    working with.  I was constantly struck by how cool the architecutre was; 
+                                    after training myself to look for interesting and beautiful things in 
+                                    parking lots and bus stops, Blois was a constant overload." />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="blois02" src="../../images/landscapes/blois/blois02.png" height="150px"
+                                alt="Digital art of a rainbow against a dark cloudy gray sky over some buildings 
+                                on a steep hill."
+                                data-caption="Based on a photo I took while walking to my hotel during the first week in Blois, 
+                                before I found my apartment." />
+
+                            </div>
+
+                            <div class="preview" id="preview-img-div">
+                                <div class="preview-img">
+                                    <img id="preview" src="../../images/landscapes/blois/Blois01.png"
+                                    style="display:block;margin:0 auto;" height="100%"
+                                    alt="Digital art of cool-looking buildings from across a parking lot,
+                                    with a fancy curly street-lamp, under a gray sky."/>
+                                </div>
+                                <label id="previewCaption">
+                                    Based on a photo I took while waiting to meet the local teacher I'd be 
+                                    working with.  I was constantly struck by how cool the architecutre was; 
+                                    after training myself to look for interesting and beautiful things in 
+                                    parking lots and bus stops, Blois was a constant overload.
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>    
+                
             </div>
         </main>
 
@@ -57,14 +97,13 @@
 
                 <div class="row justify-content-center">
                     
-                    <div class="col-sm-5">
+                    <div class="col-5">
                         <p class="right-align">
-                            This website is a portfolio for my personal art.  All images were drawn by me, Kokiri85, witohut use of AI.
-                            JavaScript was used to make the photo gallery, and Bootstrap columns for responsive layout.
+                            All images were drawn by me without use of AI. Bootstrap columns were used for responsive layout.
                         </p>
                     </div>
 
-                    <div class="col-sm-5">
+                    <div class="col-5">
                         <p class="row justify-content-start">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <a href="https://www.instagram.com/kokiri85/?hl=en">Instagram</a>

@@ -20,8 +20,10 @@
             <nav>
                 <ul>
                     <li><a href="../../index.html">HOME</a></li>
+                    <li><a href="../../projects/landscapes/landscapes-index.html">LANDSCAPES</a></li>
+                    <li><a href="../../projects/illustration/illustration-index.html">ILLUSTRATION</a></li>
+                    <li><a href="../../projects/other/other-index.html">OTHER ART</a></li>
                     <li><a href="../../about.html">ABOUT</a></li>
-                    <li><a href="../../game.html">GAME</a></li>
                 </ul>  
             </nav>
         </header>
@@ -29,33 +31,69 @@
         <main>
             <div class="container-fluid">
                 
-                <div class="gallery">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-12">
-                            <h2>Burnsville</h2>
-                            <p>
-                                I moved from Seattle back to Burnsville, MN in 2019.  My family lives 
-                                there and...
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="../../images/landscapes/burnsville/2021.08.22.png"
-                            alt="Digital art of scruffy trees with full green leaves and a 
-                            hint of a lake behind" height="100%">
-                    </div>
-                    <div class="col-sm-6">
+                <div class="row justify-content-start">
+                    <div class="col-sm-12">
+                        <h2>Burnsville</h2>
                         <p>
-                            Dated 8/22/2021, from a walk around Early Lake.  I struggled to 
-                            find good digital brushes for handling leaves; in traditional media, 
-                            especially paint, it's easy to paint a bunch of little leaves very 
-                            quickly and trust that the brush strokes will look good.  It was 
-                            a lot harder to make leaves look right in digital, and at this point 
-                            I was trying a lot of different things.
+                            Most of these are from the period AFTER I moved back from France to Minnesota, 
+                            but before I got my apartment in the Twin Cities.  I had gotten really used to 
+                            talking long, interesting wlaks in France, and it was some ugly culture shock 
+                            to realize how hard it is to walk anywhere in the suburbs.  Mostly I just walked 
+                            around Early Lake.
                         </p>
                     </div>
                 </div>
 
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+                        <div class="gallery">
+
+                            <div class="gallery-thumbnails">
+                                
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="bunrsville01" src="../../images/landscapes/burnsville/2021.08.22.png" height="150px"
+                                alt="Digital art of some trees around Early lake, in summer with everything very green."
+                                data-caption="Based on a photo I took while walking around Early Lake in August, 2021." />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="bunrsville02" src="../../images/landscapes/burnsville/2021.10.10.png" height="150px"
+                                alt="Digital art of a some trees around Early lake in the early fall, so there's still 
+                                a lot of leaves, but in the center of this image is a small tree that's bright yellow-orage.."
+                                data-caption="Based on a photo I took while walking around Early Lake in October, 2021" />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="bunrsville03" src="../../images/landscapes/burnsville/2022.01.18.png" height="150px"
+                                alt="Digital art of a some trees around Early lake in the winter, on a fairly warm 
+                                day with a clear blue sky but snow on the ground, and the birch trees are casting purple 
+                                shadow lines over it."
+                                data-caption="Digital art of a some trees around Early lake in January, 2022." />
+
+                            </div>
+
+                            <div class="preview" id="preview-img-div">
+                                <div class="preview-img">
+                                    <img id="preview" src="../../images/landscapes/burnsville/2021.08.22.png"
+                                    style="display:block;margin:0 auto;" height="100%"
+                                    alt="Digital art of some trees around Early lake, in summer with everything very green"/>
+                                </div>
+                                <label id="previewCaption">
+                                    Based on a photo I took while walking around Early Lake in August, 2021.
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>    
+                
             </div>
         </main>
 
@@ -64,14 +102,13 @@
 
                 <div class="row justify-content-center">
                     
-                    <div class="col-sm-5">
+                    <div class="col-5">
                         <p class="right-align">
-                            This website is a portfolio for my personal art.  All images were drawn by me, Kokiri85, witohut use of AI.
-                            JavaScript was used to make the photo gallery, and Bootstrap columns for responsive layout.
+                            All images were drawn by me without use of AI. Bootstrap columns were used for responsive layout.
                         </p>
                     </div>
 
-                    <div class="col-sm-5">
+                    <div class="col-5">
                         <p class="row justify-content-start">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <a href="https://www.instagram.com/kokiri85/?hl=en">Instagram</a>

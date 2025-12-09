@@ -20,8 +20,10 @@
             <nav>
                 <ul>
                     <li><a href="../../index.html">HOME</a></li>
+                    <li><a href="../../projects/landscapes/landscapes-index.html">LANDSCAPES</a></li>
+                    <li><a href="../../projects/illustration/illustration-index.html">ILLUSTRATION</a></li>
+                    <li><a href="../../projects/other/other-index.html">OTHER ART</a></li>
                     <li><a href="../../about.html">ABOUT</a></li>
-                    <li><a href="../../game.html">GAME</a></li>
                 </ul>  
             </nav>
         </header>
@@ -29,31 +31,105 @@
         <main>
             <div class="container-fluid">
                 
-                <div class="gallery">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-12">
-                            <h2>Eagan, MN</h2>
-                            <p>
-                                I work in Eagan and have carefully arranged my life to make bussing work.  This isn't always 
-                                entirely convenient, but one of the things I like about it is how much more aware of the landscape 
-                                I can be.  I can take pictures out the bus window because I'm not driving, and the area arond my 
-                                stop has a lot of open fields.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="../../images/landscapes/eagan/2024_lent_01.png"
-                            alt="Digital art of ..." height="100%">
-                    </div>
-                    <div class="col-sm-6">
+                <div class="row justify-content-start">
+                    <div class="col-sm-12">
+                        <h2>Eagan</h2>
                         <p>
-                            Drawn during Lent in 2024, from a photo I took while walking through some parking lots behind buildings.  
-                            There's a scruffy wooded area back there, and I find the subtle colors in the brown grass interesting to 
-                            try to capture.
+                            I found a job in Eagan that's on a bus line, to facilitate by car free life.  It makes for 
+                            a lot of time spent walking and waiting in spaces that most people don't usually go, and I 
+                            really like how that makes me engage with the space.
+                        </p>
+                        <p>
+                            Except in the winter, because Eagan doesn't clear the sidewalks.
+                        </p>
+                        <p>
+                            Taking the bus also means i can take photos from the window in a way you 
+                            never could while driving, and there's some very nice scenery on 35-E.
                         </p>
                     </div>
                 </div>
 
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+                        <div class="gallery">
+
+                            <div class="gallery-thumbnails">
+                                
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="eagan01" src="../../images/landscapes/eagan/2024_lent_01.png" height="150px"
+                                alt="Digital art of a parking lost behind the some industrial buildings, where it edhes up against 
+                                a scuffy woods, with a few small trres planted int he lndscaped areas in front.  The grass is 
+                                brown and the trees are bare because it's late winter."
+                                data-caption="Based on a photo I took while walking around the area where I work.  I always want to 
+                                try to capture the complexity of the color in brown grass." />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="eagan02" src="../../images/landscapes/eagan/2024_lent_02.png" height="150px"
+                                alt="Digital art or a parking lot and a street behind it and a row od landscaped trees behind that, 
+                                mostly blay and gray and snowy, but with a pink highlight along the horizon where the sunrise
+                                it creeping in."
+                                data-caption="From a photo I took fromt he window upstairs at work.  I'm not entirely happy with how 
+                                the pink looks." />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="eagan03" src="../../images/landscapes/eagan/2024_lent_04.png" height="150px"
+                                alt="Digital art of a field of golden-brown grass with darker blue shadows and two everygreen trees in the distance, 
+                                and a talkk streetlight taller than all the rest."
+                                data-caption="Drawn from a photo I took while waiting for the bus.  They've moved my stop several times now, but 
+                                this was my favorite; that field was beautiful, and full of a choir of crickets that were lovely to 
+                                listen to--between the noise of the traffic." />
+                                
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="eagan04" src="../../images/landscapes/eagan/eagan03.png" height="150px"
+                                alt="digital image of railroad tracks running through a brown 
+                                    field in early spring, with a sunrise in the background making the 
+                                    trees glow red"
+                                data-caption="Drawn from a photo I took out the bus window; those don't always coem out, 
+                                but I really wanted to get this one.  It was such a cool effect, how the trees caught the red of 
+                                the sunrise instead of clouds." />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="eagan05" src="../../images/landscapes/eagan/eagan08.png" height="150px"
+                                alt="digital image of a road running througha  grassy green valley surrounded by trees and scattered 
+                                while flowers, as viewed from above from a different overpass"
+                                data-caption="Drawn from a photo I took out the bus window; this was sucha  great, 
+                                sweeping view." />
+
+                            </div>
+
+                            <div class="preview" id="preview-img-div">
+                                <div class="preview-img">
+                                    <img id="preview" src="../../images/landscapes/eagan/2024_lent_01.png"
+                                    style="display:block;margin:0 auto;" height="100%"
+                                    alt="Digital art of a parking lost behind the some industrial buildings, where it edhes up against 
+                                a scuffy woods, with a few small trres planted int he lndscaped areas in front.  The grass is 
+                                brown and the trees are bare because it's late winter."/>
+                                </div>
+                                <label id="previewCaption">
+                                    Based on a photo I took while walking around the area where I work.  I always want to 
+                                try to capture the complexity of the color in brown grass.
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>    
+                
             </div>
         </main>
 
@@ -62,14 +138,13 @@
 
                 <div class="row justify-content-center">
                     
-                    <div class="col-sm-5">
+                    <div class="col-5">
                         <p class="right-align">
-                            This website is a portfolio for my personal art.  All images were drawn by me, Kokiri85, witohut use of AI.
-                            JavaScript was used to make the photo gallery, and Bootstrap columns for responsive layout.
+                            All images were drawn by me without use of AI. Bootstrap columns were used for responsive layout.
                         </p>
                     </div>
 
-                    <div class="col-sm-5">
+                    <div class="col-5">
                         <p class="row justify-content-start">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <a href="https://www.instagram.com/kokiri85/?hl=en">Instagram</a>

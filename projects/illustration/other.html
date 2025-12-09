@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
         <meta name="description" content="Landscape art projects by Kokiri85">
-        <title>Kokiri85 Art::Twin Cities</title>
+        <title>Kokiri85 Art::Other Illustration</title>
         <!-- Bootstrap Stylesheet -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
         <!-- Font Awesome -->
@@ -30,14 +30,14 @@
 
         <main>
             <div class="container-fluid">
-                
+
                 <div class="row justify-content-start">
                     <div class="col-sm-12">
-                        <h2>Twin Cities</h2>
+                        <h2>Other Illustration</h2>
                         <p>
-                            I moved to an apartment in the Twin Cities in 2022, and live a dedicatedly car-free life.  
-                            This means a lot of walking and waiting for the bus, and my phone camera is packed with photos 
-                            of every view that struck me and interesting or appealing.
+                            Everything else... that I can currently get at.  There's reams 
+                            of other older stuff on DeviantArt, but I can't get at the originals 
+                            right now.
                         </p>
                     </div>
                 </div>
@@ -47,60 +47,57 @@
                         <div class="gallery">
 
                             <div class="gallery-thumbnails">
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="other01" src="../../images/illustration/other/ArtBlock.png" height="150px"
+                                alt="digital image of a person sitting at a coffee shop 
+                                    in front of a large swirly red painting, holding a pencil like they're 
+                                    going to draw, but looking at their phone"
+                                data-caption="How not to start a drawing: take a break and look at your phone" />
+
+                                <img onclick="
+                                    document.getElementById('preview').src=this.src;
+                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
+                                    "
+                                id="other02" src="../../images/illustration/other/deep_inside_of_you.png" height="150px"
+                                alt="digital art of a person in a black hoodie with their hands up, palm-up, 
+                                looking up, as blue light rains down on them"
+                                data-caption="An illustration of how Third Eye Blind's Song 'Deep Inside of You' 
+                                sounds to me" />
                                 
                                 <img onclick="
                                     document.getElementById('preview').src=this.src;
                                     document.getElementById('previewCaption').textContent=this.dataset.caption;
                                     "
-                                id="twin-cities01" src="../../images/landscapes/twin-cities/2023.02.25.png" height="150px"
-                                alt="Digital art of a single tree net to a telephone pole and a streetlight that's lighting up 
-                                its branches, under a night sky, and a snowy ground"
-                                data-caption="Based on a photo I took while walking home.  I liked how the stars above and the city 
-                                lights below visually interacted." />
-
-                                <img onclick="
-                                    document.getElementById('preview').src=this.src;
-                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
-                                    "
-                                id="twin-cities02" src="../../images/landscapes/twin-cities/2024_lent_06.png" height="150px"
-                                alt="Digital art of two everygreen tries along a street, and some other trees behind them, and 
-                                    the light coming through all of it and making it glow"
-                                data-caption="From a photo I took while waiting for the bus; though I was also stuck waiting there a while and 
-                                    did some of the drawing in person.  I remember being disappointed; it doesn't look nearly as 
-                                    cool as the real thing did, but that's usually how it goes with landscapes." />
-
-                                <img onclick="
-                                    document.getElementById('preview').src=this.src;
-                                    document.getElementById('previewCaption').textContent=this.dataset.caption;
-                                    "
-                                id="twin-cities03" src="../../images/landscapes/twin-cities/2025_03_01_a.png" height="150px"
-                                alt="Digital art of I-94 viewed from the walkway above, through the grating with some crunchy leaveless 
-                                vines in the early spring"
-                                data-caption="I-94, drawn from a photo I took from the walkway to cross the highway.  There's a movement 
-                                to remove this highway and replace it with an at-grade boulevard, to restore the Rondo community that was 
-                                devastated by its building.  You look out at just ho wmuch land it takes up, and the imagination runs wild 
-                                with what else could be done with it, if only they gave it back." />
+                                id="other03" src="../../images/illustration/other/zelda01.png" height="150px"
+                                alt="digital drawing of Princess Zelda sort of floating 
+                                    against a gray-blue-green cloudy background, reaching up to a floating 
+                                    glowing triforce piece"
+                                data-caption="Vague Priness Zelda.  I don't engage with the games or the fandom much anymore, 
+                                but it was super formative." />
 
                             </div>
 
                             <div class="preview" id="preview-img-div">
                                 <div class="preview-img">
-                                    <img id="preview" src="../../images/landscapes/twin-cities/2023.02.25.png"
+                                    <img id="preview" src="../../images/illustration/other/ArtBlock.png"
                                     style="display:block;margin:0 auto;" height="100%"
-                                    alt="Digital art of two everygreen tries along a street, and some other trees behind them, and 
-                                    the light coming through all of it and making it glow"/>
+                                    alt="digital image of a person sitting at a coffee shop 
+                                    in front of a large swirly red painting, holding a pencil like they're 
+                                    going to draw, but looking at their phone"/>
                                 </div>
                                 <label id="previewCaption">
-                                    From a photo I took while waiting for the bus; though I was also stuck waiting there a while and 
-                                    did some of the drawing in person.  I remember being disappointed; it doesn't look nearly as 
-                                    cool as the real thing did, but that's usually how it goes with landscapes.
+                                    How not to start a drawing: take a break and look at your phone
                                 </label>
                             </div>
 
                         </div>
                     </div>
-                </div>    
-                
+                </div>
+
             </div>
         </main>
 
